@@ -1,0 +1,27 @@
+{
+	"name": "preact-pmg",
+	"private": true,
+	"version": "1.0.6",
+	"type": "module",
+	"scripts": {
+		"start": "vite",
+		"build": "tsc -b && vite build",
+		"buildv": "node ./increment-version.js && tsc -b && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.1.8",
+		"dotenv": "^16.5.0",
+		"preact": "^10.26.5",
+		"tailwindcss": "^4.1.8",
+		"vite-plugin-ssh": "^1.0.1"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.10.1",
+		"@types/node": "^22.15.29",
+		"typescript": "~5.8.3",
+		"vite": "^6.3.5",
+		"vite-plugin-sftp": "^0.1.4",
+		"vite-plugin-singlefile": "^2.2.0"
+	}
+}
