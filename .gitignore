@@ -1,0 +1,65 @@
+# Файлы зависимостей
+node_modules/
+
+# Логи
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Артефакты сборки и временные файлы
+dist/
+build/
+out/
+.parcel-cache/
+
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы переменных окружения
+# Обычно .env файлы не должны попадать в репозиторий,
+# так как они могут содержать чувствительные данные.
+# Вместо этого, создайте .env.example или .env.template
+# с примерами переменных.
+.env
+.env.local
+.env.*.local
+
+!.env.example
+!.env.template
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
